@@ -183,6 +183,42 @@ public:
         sq_getstackobj(vm, -1, &((*cd->instances)[ptr]));
     }
 
+	//
+	//	These are used when we want to pass ownership of an object onto Squirrel
+	//
+	static SQInteger DeleteOwnedInstance(SQUserPointer ptr, SQInteger size) {
+		SQUNUSED(size);
+		std::pair<C*, SharedPtr<typename unordered_map<C*, HSQOBJECT>::type> >* instance = reinterpret_cast<std::pair<C*, SharedPtr<typename unordered_map<C*, HSQOBJECT>::type> >*>(ptr);
+		instance->second->erase(instance->first);
+		delete instance->first;
+		delete instance;
+		return 0;
+	}
+
+	static void PushOwnedInstance(HSQUIRRELVM vm, C* ptr) {
+		if (!ptr) {
+			sq_pushnull(vm);
+			return;
+		}
+
+		ClassData<C>* cd = getClassData(vm);
+
+		typename unordered_map<C*, HSQOBJECT>::type::iterator it = cd->instances->find(ptr);
+		if (it != cd->instances->end()) {
+			sq_pushobject(vm, it->second);
+			return;
+		}
+
+		sq_pushobject(vm, cd->classObj);
+		sq_createinstance(vm, -1);
+		sq_remove(vm, -2);
+		sq_setinstanceup(vm, -1, new std::pair<C*, SharedPtr<typename unordered_map<C*, HSQOBJECT>::type> >(ptr, cd->instances));
+		sq_setreleasehook(vm, -1, &DeleteOwnedInstance);
+		sq_getstackobj(vm, -1, &((*cd->instances)[ptr]));
+	}
+
+
+
     static void PushInstanceCopy(HSQUIRRELVM vm, const C& value) {
         sq_pushobject(vm, getClassData(vm)->classObj);
         sq_createinstance(vm, -1);
