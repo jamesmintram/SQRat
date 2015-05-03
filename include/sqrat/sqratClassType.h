@@ -100,14 +100,14 @@ public:
         sq_pushstring(vm, "__classes", -1);
 #ifndef NDEBUG
         SQRESULT r = sq_rawget(vm, -2);
-        assert(SQ_SUCCEEDED(r)); // fails if getClassData is called when the data does not exist for the given VM yet (bind the class)
+        SQRAT_ASSERT(SQ_SUCCEEDED(r)); // fails if getClassData is called when the data does not exist for the given VM yet (bind the class)
 #else
         sq_rawget(vm, -2);
 #endif
         sq_pushstring(vm, ClassName().c_str(), -1);
 #ifndef NDEBUG
         r = sq_rawget(vm, -2);
-        assert(SQ_SUCCEEDED(r)); // fails if getClassData is called when the data does not exist for the given VM yet (bind the class)
+        SQRAT_ASSERT(SQ_SUCCEEDED(r)); // fails if getClassData is called when the data does not exist for the given VM yet (bind the class)
 #else
         sq_rawget(vm, -2);
 #endif
@@ -139,17 +139,17 @@ public:
     }
 
     static inline AbstractStaticClassData*& BaseClass() {
-        assert(getStaticClassData().Expired() == false); // fails because called before a Sqrat::Class for this type exists
+        SQRAT_ASSERT(getStaticClassData().Expired() == false); // fails because called before a Sqrat::Class for this type exists
         return getStaticClassData().Lock()->baseClass;
     }
 
     static inline string& ClassName() {
-        assert(getStaticClassData().Expired() == false); // fails because called before a Sqrat::Class for this type exists
+        SQRAT_ASSERT(getStaticClassData().Expired() == false); // fails because called before a Sqrat::Class for this type exists
         return getStaticClassData().Lock()->className;
     }
 
     static inline COPYFUNC& CopyFunc() {
-        assert(getStaticClassData().Expired() == false); // fails because called before a Sqrat::Class for this type exists
+        SQRAT_ASSERT(getStaticClassData().Expired() == false); // fails because called before a Sqrat::Class for this type exists
         return getStaticClassData().Lock()->copyFunc;
     }
 
@@ -225,7 +225,7 @@ public:
         sq_remove(vm, -2);
 #ifndef NDEBUG
         SQRESULT result = CopyFunc()(vm, -1, &value);
-        assert(SQ_SUCCEEDED(result)); // fails when trying to copy an object defined as non-copyable
+        SQRAT_ASSERT(SQ_SUCCEEDED(result)); // fails when trying to copy an object defined as non-copyable
 #else
         CopyFunc()(vm, -1, &value);
 #endif

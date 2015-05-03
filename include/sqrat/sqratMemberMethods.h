@@ -64,11 +64,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -102,11 +102,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -141,11 +141,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -185,11 +185,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -230,11 +230,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -276,11 +276,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -323,11 +323,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -371,11 +371,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -420,11 +420,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -470,11 +470,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -521,11 +521,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -573,11 +573,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -626,11 +626,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -680,11 +680,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -735,11 +735,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -791,11 +791,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -848,11 +848,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -906,11 +906,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -965,11 +965,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -1025,11 +1025,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -1087,11 +1087,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -1149,11 +1149,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -1213,11 +1213,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -1277,11 +1277,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -1343,11 +1343,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -1409,11 +1409,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -1476,11 +1476,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -1544,11 +1544,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -1613,11 +1613,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -1683,11 +1683,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -1764,11 +1764,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -1802,11 +1802,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -1841,11 +1841,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -1885,11 +1885,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -1930,11 +1930,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -1976,11 +1976,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -2023,11 +2023,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -2071,11 +2071,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -2120,11 +2120,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -2170,11 +2170,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -2221,11 +2221,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -2273,11 +2273,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -2326,11 +2326,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -2380,11 +2380,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -2435,11 +2435,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -2491,11 +2491,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -2548,11 +2548,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -2606,11 +2606,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -2665,11 +2665,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -2725,11 +2725,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -2787,11 +2787,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -2849,11 +2849,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -2913,11 +2913,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -2977,11 +2977,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -3043,11 +3043,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -3109,11 +3109,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -3176,11 +3176,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -3244,11 +3244,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -3313,11 +3313,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -3383,11 +3383,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -3465,11 +3465,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -3502,11 +3502,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -3540,11 +3540,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -3583,11 +3583,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -3627,11 +3627,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -3672,11 +3672,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -3718,11 +3718,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -3765,11 +3765,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -3813,11 +3813,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -3862,11 +3862,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -3912,11 +3912,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -3963,11 +3963,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -4015,11 +4015,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -4068,11 +4068,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -4122,11 +4122,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -4177,11 +4177,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -4233,11 +4233,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -4290,11 +4290,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -4348,11 +4348,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -4407,11 +4407,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -4467,11 +4467,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -4528,11 +4528,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -4590,11 +4590,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -4653,11 +4653,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -4717,11 +4717,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -4782,11 +4782,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -4848,11 +4848,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -4915,11 +4915,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -4983,11 +4983,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 
@@ -5052,11 +5052,11 @@ public:
         ptr = Var<C*>(vm, 1).value;
         SQCATCH_NOEXCEPT(vm) {
             SQCLEAR(vm); // clear the previous error
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT_NOEXCEPT(vm));
         }
         SQCATCH(vm) {
-            assert(0); // may fail because C is not a type bound in the VM
+            SQRAT_ASSERT(0); // may fail because C is not a type bound in the VM
             return sq_throwerror(vm, SQWHAT(vm));
         }
 

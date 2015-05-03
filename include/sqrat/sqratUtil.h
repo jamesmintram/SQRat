@@ -28,7 +28,11 @@
 #if !defined(_SCRAT_UTIL_H_)
 #define _SCRAT_UTIL_H_
 
-#include <cassert>
+#ifndef SQRAT_ASSERT
+#	include <assert.h>
+#define SQRAT_ASSERT assert
+#endif
+
 #include <map>
 #include <squirrel.h>
 #include <string.h>
@@ -884,7 +888,7 @@ public:
     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     T& operator*() const
     {
-        assert(m_Ptr != NULL); // fails when dereferencing a null SharedPtr
+        SQRAT_ASSERT(m_Ptr != NULL); // fails when dereferencing a null SharedPtr
         return *m_Ptr;
     }
 
@@ -894,7 +898,7 @@ public:
     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     T* operator->() const
     {
-        assert(m_Ptr != NULL); // fails when dereferencing a null SharedPtr
+        SQRAT_ASSERT(m_Ptr != NULL); // fails when dereferencing a null SharedPtr
         return m_Ptr;
     }
 

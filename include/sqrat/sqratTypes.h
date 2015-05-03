@@ -205,7 +205,7 @@ private:
     template <class T2, bool b>
     struct pushAsInt {
         void push(HSQUIRRELVM vm, const T2& /*value*/) {
-            assert(false); // fails because called before a Sqrat::Class for T exists and T is not convertible to SQInteger
+            SQRAT_ASSERT(false); // fails because called before a Sqrat::Class for T exists and T is not convertible to SQInteger
             sq_pushnull(vm);
         }
     };
@@ -261,7 +261,7 @@ private:
     template <class T2, bool b>
     struct pushAsInt {
         void push(HSQUIRRELVM vm, const T2& /*value*/) {
-            assert(false); // fails because called before a Sqrat::Class for T exists and T is not convertible to SQInteger
+            SQRAT_ASSERT(false); // fails because called before a Sqrat::Class for T exists and T is not convertible to SQInteger
             sq_pushnull(vm);
         }
     };
