@@ -63,11 +63,15 @@ struct StaticClassData : public AbstractStaticClassData {
 };
 
 // Every Squirrel class object created by Sqrat in every VM has its own unique ClassData object stored in the registry table of the VM
+struct AbsractClassData
+{
+	HSQOBJECT classObj;
+	HSQOBJECT getTable;
+	HSQOBJECT setTable;
+};
+
 template<class C>
-struct ClassData {
-    HSQOBJECT classObj;
-    HSQOBJECT getTable;
-    HSQOBJECT setTable;
+struct ClassData : public AbsractClassData {
     SharedPtr<typename unordered_map<C*, HSQOBJECT>::type> instances;
     SharedPtr<AbstractStaticClassData> staticData;
 };
